@@ -507,36 +507,45 @@ def normalizeData(X_seq):
                 featureList[j] = featureList[j] + biasList[i]
                 featureList[j] = featureList[j] / rangeList[i]
 
-def computeErrorTime(yTrue, yEst, debug=False):
+def computeErrorTime(yTrue, yEst):
+    '''
+    input - yTrue: A list contains the ground truth. Its shape is (length of a sample, 3)
+    input - yEst: A list contains the classification result of LSTM. Its shape is (length of a sample, 3)
+    '''
+    
     global maxIndexDisHs, maxIndexDisTo
     
-    hsCorrectIndex = []
-    toCorrectIndex = []
-    
+    # get the classification results for HS and TO event, respectively.
     hsData = [a[1] for a in yEst]
     toData = [a[2] for a in yEst]
+    # find local maxmima
     hsLocalMax = argrelextrema(np.asarray(hsData), np.greater, mode='wrap')[0]
     toLocalMax = argrelextrema(np.asarray(toData), np.greater, mode='wrap')[0]
-    
+    # pick the local maxima which is bigger than 0.5
     hsLocalMax = [x for x in hsLocalMax if hsData[x] > 0.5]
     toLocalMax = [x for x in toLocalMax if toData[x] > 0.5]
     
+    # find the index of ground truth
+    hsCorrectIndex = []
+    toCorrectIndex = []
     for i, y in enumerate(yTrue):
         if y[1] >= 1.0:
             hsCorrectIndex.append(i)
         if y[2] >= 1.0:
             toCorrectIndex.append(i)
-
+    
+    # this function removes duplicate element in a list
     def removeDup(seq):
         seen = set()
         seen_add = seen.add
         return [x for x in seq if not (x in seen or seen_add(x))]
 
-#     print("hsLocalMax", hsLocalMax)
+    # ----- Find successive local maxima. If they are close to each other, we take their average. -----
     hsIndex = []
     for i in range(len(hsLocalMax)):
         indexSum = hsLocalMax[i]
         num = 1.0
+        # find other local maxima which are close to this local maximum
         for j in range(len(hsLocalMax)):
             if i == j:
                 continue
@@ -545,10 +554,7 @@ def computeErrorTime(yTrue, yEst, debug=False):
                 num = num + 1.0
         hsIndex.append(indexSum/num)
     hsIndex = removeDup(hsIndex)
-    if debug:
-        print("hsIndex", hsIndex)
     
-#     print("toLocalMax", toLocalMax)
     toIndex = []
     for i in range(len(toLocalMax)):
         indexSum = toLocalMax[i]
@@ -561,9 +567,8 @@ def computeErrorTime(yTrue, yEst, debug=False):
                 num = num + 1.0
         toIndex.append(indexSum/num)
     toIndex = removeDup(toIndex)
-    if debug:
-        print("toIndex", toIndex)
     
+    # calculate the distance between ground truth (index) and the estimated index
     errorHsNumList = []
     if len(hsCorrectIndex) > len(hsIndex):
         for i in range(len(hsIndex)):
@@ -594,7 +599,6 @@ def computeErrorTime(yTrue, yEst, debug=False):
             errorToNumList.append(minV)
             if abs(minV) > abs(maxIndexDisTo):
                 maxIndexDisTo = minV
-            
     else:
         for i in range(len(toCorrectIndex)):
             minV = 1000
@@ -605,6 +609,9 @@ def computeErrorTime(yTrue, yEst, debug=False):
             if abs(minV) > abs(maxIndexDisTo):
                 maxIndexDisTo = minV
     
+    # ----- calculate the detect loss -----
+    # false-positive: hsIndex > 3 or toIndex > 3
+    # false-negative: hsIndex < 3 or toIndex < 3
     detectLossHs = abs(3 - len(hsIndex))
     detectLossTo = abs(3 - len(toIndex))
     
