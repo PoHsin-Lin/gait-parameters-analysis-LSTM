@@ -1,0 +1,131 @@
+Read data and preprocess ...
+
+trainData length: 36
+valiData length: 9
+testData length: 9
+Train time: 115.683244 sec
+min val_loss: 19.295474, epoch: 1489
+min val_precision: 3.953971, epoch: 1325
+k = 0
+estimated: 118.740898, ground truth: 124.022827
+estimated: 97.776558, ground truth: 100.180473
+estimated: 117.511292, ground truth: 119.711891
+estimated: 103.350151, ground truth: 99.418861
+estimated: 100.026367, ground truth: 100.878716
+estimated: 104.483513, ground truth: 107.599937
+estimated: 107.786575, ground truth: 110.536713
+estimated: 120.288841, ground truth: 115.904518
+estimated: 108.371529, ground truth: 115.890823
+
+meanError: -1.756560
+precision: 3.872494
+rmse: 4.051600
+
+trainData length: 36
+valiData length: 9
+testData length: 9
+Train time: 117.545883 sec
+min val_loss: 7.999291, epoch: 1467
+min val_precision: 2.340974, epoch: 1446
+k = 1
+estimated: 107.192589, ground truth: 111.118668
+estimated: 113.485939, ground truth: 105.001480
+estimated: 106.450783, ground truth: 103.638824
+estimated: 111.843193, ground truth: 110.277786
+estimated: 98.010933, ground truth: 90.687233
+estimated: 107.702415, ground truth: 104.917053
+estimated: 103.974014, ground truth: 100.304085
+estimated: 97.229767, ground truth: 103.247856
+estimated: 109.066139, ground truth: 106.826027
+
+meanError: 2.104084
+precision: 4.663849
+rmse: 4.874611
+
+trainData length: 36
+valiData length: 9
+testData length: 9
+Train time: 118.611923 sec
+min val_loss: 5.291882, epoch: 1470
+min val_precision: 1.998343, epoch: 1459
+k = 2
+estimated: 119.578072, ground truth: 114.373283
+estimated: 98.034958, ground truth: 103.587029
+estimated: 106.632523, ground truth: 100.399109
+estimated: 109.314369, ground truth: 104.395958
+estimated: 111.144051, ground truth: 106.260895
+estimated: 107.848236, ground truth: 109.782593
+estimated: 107.177658, ground truth: 102.719612
+estimated: 122.270706, ground truth: 122.810326
+estimated: 122.134895, ground truth: 118.275360
+
+meanError: 2.392367
+precision: 4.063543
+rmse: 4.516757
+
+trainData length: 36
+valiData length: 9
+testData length: 9
+Train time: 120.206424 sec
+min val_loss: 7.313626, epoch: 1354
+min val_precision: 2.442615, epoch: 1354
+k = 3
+estimated: 108.883919, ground truth: 113.061653
+estimated: 104.229263, ground truth: 103.035690
+estimated: 114.547089, ground truth: 113.997643
+estimated: 119.738594, ground truth: 124.757912
+estimated: 116.167397, ground truth: 118.978302
+estimated: 105.119362, ground truth: 106.480530
+estimated: 108.734520, ground truth: 108.037453
+estimated: 97.851883, ground truth: 89.883118
+estimated: 99.619347, ground truth: 102.346550
+
+meanError: -0.631942
+precision: 3.904454
+rmse: 3.735003
+
+trainData length: 36
+valiData length: 9
+testData length: 9
+Train time: 122.153998 sec
+min val_loss: 2.750866, epoch: 1499
+min val_precision: 1.035052, epoch: 1401
+k = 4
+estimated: 113.838860, ground truth: 114.574699
+estimated: 111.422661, ground truth: 114.560966
+estimated: 122.476105, ground truth: 121.941841
+estimated: 91.348701, ground truth: 95.844788
+estimated: 114.402176, ground truth: 108.590630
+estimated: 115.370392, ground truth: 114.162590
+estimated: 106.160942, ground truth: 104.513390
+estimated: 118.283127, ground truth: 115.416031
+estimated: 117.016762, ground truth: 112.013031
+
+meanError: 0.966862
+precision: 3.422026
+rmse: 3.368077
+
+trainData length: 36
+valiData length: 9
+testData length: 9
+Train time: 124.619093 sec
+min val_loss: 9.436741, epoch: 1346
+min val_precision: 2.959876, epoch: 1281
+k = 5
+estimated: 118.998306, ground truth: 121.685051
+estimated: 115.210686, ground truth: 111.920921
+estimated: 109.007568, ground truth: 110.638374
+estimated: 118.789787, ground truth: 119.951614
+estimated: 119.029892, ground truth: 119.159546
+estimated: 119.221603, ground truth: 116.355988
+estimated: 113.305916, ground truth: 116.050499
+estimated: 119.608955, ground truth: 125.872055
+estimated: 104.563385, ground truth: 104.973335
+
+meanError: -0.985698
+precision: 2.925361
+rmse: 2.928904
+
+avgMeanError: 0.348186
+avgPrecision: 3.808621
+avgRmse: 3.912492

@@ -1,0 +1,72 @@
+k = 0
+trainData length: 44
+valiData length: 11
+testData length: 11
+Train time: 1008.593812 sec
+average hs error num: 2.212121
+average to error num: 12.787374
+max index distance HS: 14
+max index distance TO: 19
+detect loss count: 0
+
+k = 1
+trainData length: 44
+valiData length: 11
+testData length: 11
+Train time: 1655.540862 sec
+average hs error num: 1.393939
+average to error num: 12.855556
+max index distance HS: 4
+max index distance TO: 20
+detect loss count: 0
+
+k = 2
+trainData length: 44
+valiData length: 11
+testData length: 11
+Train time: 1039.492069 sec
+average hs error num: 1.994949
+average to error num: 10.924242
+max index distance HS: 7
+max index distance TO: 21
+detect loss count: 0
+
+k = 3
+trainData length: 44
+valiData length: 11
+testData length: 11
+Train time: 363.345028 sec
+average hs error num: 2.272727
+average to error num: 11.035354
+max index distance HS: 35
+max index distance TO: 25
+detect loss count: 0
+
+k = 4
+trainData length: 44
+valiData length: 11
+testData length: 11
+Train time: 1322.401670 sec
+average hs error num: 1.969697
+average to error num: 10.560606
+max index distance HS: 12
+max index distance TO: 25
+detect loss count: 0
+
+k = 5
+trainData length: 44
+valiData length: 11
+testData length: 11
+Train time: 671.380326 sec
+average hs error num: 1.787879
+average to error num: 13.310101
+max index distance HS: 7
+max index distance TO: 24
+detect loss count: 0
+
+CV average hs error num: 1.938552
+CV average to error num: 11.9122055
+CV detect loss count: 0
+
+HS: 0.0155 s
+TO: 0.0953 s

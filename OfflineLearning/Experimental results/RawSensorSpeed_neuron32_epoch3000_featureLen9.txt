@@ -1,0 +1,234 @@
+feature length: 9
+Read data and preprocess ...
+k = 0
+
+trainData length: 78
+valiData length: 20
+testData length: 20
+Train time: 404.841886 sec
+min val_loss: 38.884126, epoch: 2947
+min val_precision: 5.701333, epoch: 2991
+estimated: 110.006775, ground truth: 117.662224
+estimated: 111.532707, ground truth: 111.584549
+estimated: 110.985428, ground truth: 105.418640
+estimated: 110.481316, ground truth: 118.978302
+estimated: 112.465309, ground truth: 114.162590
+estimated: 104.204140, ground truth: 105.001480
+estimated: 113.730659, ground truth: 123.003616
+estimated: 114.407646, ground truth: 117.353081
+estimated: 112.098061, ground truth: 112.068298
+estimated: 112.573784, ground truth: 118.538536
+estimated: 113.499863, ground truth: 114.579292
+estimated: 106.081848, ground truth: 103.718842
+estimated: 111.859787, ground truth: 108.493073
+estimated: 106.831055, ground truth: 103.379799
+estimated: 102.743874, ground truth: 98.598244
+estimated: 105.968811, ground truth: 100.375366
+estimated: 108.175484, ground truth: 106.260895
+estimated: 113.764832, ground truth: 110.536713
+estimated: 115.197571, ground truth: 104.513390
+estimated: 103.774559, ground truth: 112.013031
+meanErrorPoHsin: -2.942266
+precisionPoHsin: 4.488813
+rmsePoHsin: 5.193708
+meanErrorFast: 3.784010
+precisionFast: 1.194669
+rmseFast: 3.931987
+meanErrorSlow: 1.897104
+precisionSlow: 7.782770
+rmseSlow: 7.001974
+k = 1
+
+trainData length: 78
+valiData length: 20
+testData length: 20
+Train time: 411.604126 sec
+min val_loss: 39.949959, epoch: 2864
+min val_precision: 4.727536, epoch: 2833
+estimated: 106.316376, ground truth: 107.040642
+estimated: 107.945480, ground truth: 119.951614
+estimated: 115.279526, ground truth: 119.159546
+estimated: 114.973450, ground truth: 114.373283
+estimated: 113.200844, ground truth: 122.697914
+estimated: 116.314583, ground truth: 119.182175
+estimated: 112.806915, ground truth: 116.597511
+estimated: 109.683449, ground truth: 122.257034
+estimated: 114.199165, ground truth: 116.355980
+estimated: 109.918190, ground truth: 107.180542
+estimated: 114.102875, ground truth: 127.073135
+estimated: 112.500252, ground truth: 109.064140
+estimated: 103.790749, ground truth: 103.035690
+estimated: 107.298729, ground truth: 106.826027
+estimated: 102.694611, ground truth: 100.304085
+estimated: 109.606705, ground truth: 114.835518
+estimated: 107.642220, ground truth: 104.973335
+estimated: 102.234390, ground truth: 102.719612
+estimated: 114.757523, ground truth: 111.127892
+estimated: 109.313560, ground truth: 116.219223
+meanErrorPoHsin: -5.193502
+precisionPoHsin: 5.609321
+rmsePoHsin: 7.454967
+meanErrorFast: 0.365117
+precisionFast: 3.353691
+rmseFast: 3.021772
+meanErrorSlow: -0.273092
+precisionSlow: 4.758237
+rmseSlow: 4.129794
+k = 2
+
+trainData length: 78
+valiData length: 20
+testData length: 20
+Train time: 415.260054 sec
+min val_loss: 24.113658, epoch: 2777
+min val_precision: 4.389208, epoch: 1700
+estimated: 117.210281, ground truth: 124.954948
+estimated: 109.921967, ground truth: 106.863365
+estimated: 110.893410, ground truth: 107.874588
+estimated: 110.043716, ground truth: 108.316483
+estimated: 113.342575, ground truth: 112.008423
+estimated: 111.447083, ground truth: 116.050499
+estimated: 115.932831, ground truth: 115.416031
+estimated: 92.950203, ground truth: 104.395958
+estimated: 113.332359, ground truth: 116.643044
+estimated: 108.676094, ground truth: 110.014069
+estimated: 110.493011, ground truth: 105.858734
+estimated: 108.705093, ground truth: 109.717751
+estimated: 108.484818, ground truth: 107.776871
+estimated: 108.213837, ground truth: 123.053062
+estimated: 109.675201, ground truth: 124.282906
+estimated: 119.219536, ground truth: 123.609985
+estimated: 110.900108, ground truth: 112.726212
+estimated: 107.948494, ground truth: 112.086723
+estimated: 112.436874, ground truth: 108.279259
+estimated: 105.908852, ground truth: 108.102577
+meanErrorPoHsin: -1.286601
+precisionPoHsin: 5.016910
+rmsePoHsin: 4.953444
+meanErrorFast: -6.828418
+precisionFast: 7.437303
+rmseFast: 9.532999
+meanErrorSlow: -1.000111
+precisionSlow: 3.585011
+rmseSlow: 3.261817
+k = 3
+
+trainData length: 78
+valiData length: 20
+testData length: 20
+Train time: 413.019903 sec
+min val_loss: 60.188976, epoch: 2846
+min val_precision: 5.498209, epoch: 2979
+estimated: 114.251198, ground truth: 114.419067
+estimated: 111.491562, ground truth: 113.204018
+estimated: 110.462227, ground truth: 104.245598
+estimated: 118.227844, ground truth: 122.234497
+estimated: 106.765991, ground truth: 120.430733
+estimated: 119.553085, ground truth: 120.227402
+estimated: 112.093880, ground truth: 112.505455
+estimated: 110.795128, ground truth: 115.776756
+estimated: 112.258430, ground truth: 106.429138
+estimated: 109.137482, ground truth: 115.890823
+estimated: 109.875748, ground truth: 113.061653
+estimated: 108.853340, ground truth: 103.587029
+estimated: 106.067520, ground truth: 103.638824
+estimated: 107.285156, ground truth: 100.180473
+estimated: 109.297363, ground truth: 111.662880
+estimated: 105.493362, ground truth: 108.757828
+estimated: 103.216171, ground truth: 108.069992
+estimated: 112.234062, ground truth: 105.872780
+estimated: 107.396278, ground truth: 102.563828
+estimated: 99.978920, ground truth: 101.599197
+meanErrorPoHsin: -2.137506
+precisionPoHsin: 5.561531
+rmsePoHsin: 5.717315
+meanErrorFast: 1.833942
+precisionFast: 4.570143
+rmseFast: 4.480213
+meanErrorSlow: 1.179909
+precisionSlow: 5.305175
+rmseSlow: 4.743505
+k = 4
+
+trainData length: 80
+valiData length: 18
+testData length: 20
+Train time: 412.206905 sec
+min val_loss: 31.375897, epoch: 2821
+min val_precision: 4.572454, epoch: 1605
+estimated: 105.732986, ground truth: 108.037453
+estimated: 105.732872, ground truth: 114.684563
+estimated: 105.733040, ground truth: 111.054039
+estimated: 105.732941, ground truth: 112.749184
+estimated: 105.733002, ground truth: 85.311821
+estimated: 105.733093, ground truth: 93.853935
+estimated: 105.733070, ground truth: 105.432686
+estimated: 105.732803, ground truth: 89.883118
+estimated: 105.732925, ground truth: 90.687233
+estimated: 105.733017, ground truth: 103.247856
+estimated: 105.732803, ground truth: 101.551834
+estimated: 105.733269, ground truth: 99.104218
+estimated: 105.733002, ground truth: 106.499222
+estimated: 105.732941, ground truth: 99.657059
+estimated: 105.732986, ground truth: 106.214165
+estimated: 105.732788, ground truth: 111.118668
+estimated: 105.732826, ground truth: 103.158310
+estimated: 105.733040, ground truth: 110.254654
+estimated: 105.732849, ground truth: 109.384140
+estimated: 105.733040, ground truth: 113.204010
+meanErrorPoHsin: 4.233530
+precisionPoHsin: 10.125733
+rmsePoHsin: 10.541930
+meanErrorFast: 1.214331
+precisionFast: 5.082174
+rmseFast: 4.705040
+meanErrorSlow: -3.267340
+precisionSlow: 4.223680
+rmseSlow: 4.904601
+k = 5
+
+trainData length: 80
+valiData length: 20
+testData length: 18
+Train time: 380.324393 sec
+min val_loss: 26.216573, epoch: 2760
+min val_precision: 4.302977, epoch: 2855
+estimated: 109.401459, ground truth: 101.077950
+estimated: 107.678429, ground truth: 110.943245
+estimated: 111.580551, ground truth: 107.474144
+estimated: 116.110535, ground truth: 111.524597
+estimated: 103.794403, ground truth: 99.356926
+estimated: 106.870934, ground truth: 95.844788
+estimated: 112.093704, ground truth: 99.418861
+estimated: 106.063347, ground truth: 102.346550
+estimated: 105.467812, ground truth: 109.921486
+estimated: 106.300652, ground truth: 111.229416
+estimated: 103.774071, ground truth: 106.401100
+estimated: 110.988235, ground truth: 100.399109
+estimated: 108.474228, ground truth: 100.878716
+estimated: 111.091118, ground truth: 110.638374
+estimated: 104.055916, ground truth: 108.590630
+estimated: 105.660446, ground truth: 106.480530
+estimated: 111.038376, ground truth: 106.433807
+estimated: 112.540703, ground truth: 114.789780
+meanErrorPoHsin: 3.054257
+precisionPoHsin: 6.180472
+rmsePoHsin: 6.637331
+meanErrorFast: 2.656517
+precisionFast: 6.244540
+rmseFast: 6.184861
+meanErrorSlow: 1.177746
+precisionSlow: 4.846259
+rmseSlow: 3.623562
+
+Average MeanError PoHsin: -0.712015
+Average Precision PoHsin: 6.163797
+Average Rmse PoHsin: 6.749782
+
+Average MeanError Fast: 0.504250
+Average Precision Fast: 4.647087
+Average Rmse Fast: 5.309479
+
+Average MeanError Slow: -0.047631
+Average Precision Slow: 5.083522
+Average Rmse Slow: 4.610875

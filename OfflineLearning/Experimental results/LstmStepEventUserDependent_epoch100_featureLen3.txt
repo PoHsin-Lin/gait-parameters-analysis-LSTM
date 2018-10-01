@@ -1,0 +1,626 @@
+feature length: 3
+Read data and preprocess ...
+
+k = 0
+trainData length: 49
+valiData length: 11
+testData length: 11
+Train time: 155.367746 sec
+hsIndex [296.0, 516.0, 740.0]
+toIndex [215.0, 429.0, 649.0]
+PoHsin's test 0
+0's test no.0:
+hsError:  ['-1.0', '-2.0', '0.0'] lossNum: 0
+toError:  ['2.0', '-4.0', '-1.0'] lossNum: 0
+hsIndex [293.0, 509.0, 726.0]
+toIndex [211.0, 423.0, 641.5]
+PoHsin's test 1
+0's test no.1:
+hsError:  ['3.0', '-1.0', '1.0'] lossNum: 0
+toError:  ['0.0', '-4.0', '-4.5'] lossNum: 0
+hsIndex [303.0, 528.0, 748.0]
+toIndex [221.0, 436.5, 662.0]
+PoHsin's test 2
+0's test no.2:
+hsError:  ['-2.0', '-4.0', '-1.0'] lossNum: 0
+toError:  ['0.0', '-6.5', '0.0'] lossNum: 0
+hsIndex [256.0, 440.0, 628.0]
+toIndex [169.0, 368.0, 554.0]
+Fast's test 3
+0's test no.3:
+hsError:  ['-1.0', '0.0', '0.0'] lossNum: 0
+toError:  ['-11.0', '2.0', '3.0'] lossNum: 0
+hsIndex [278.0, 458.0, 649.0]
+toIndex [209.0, 388.0, 575.0]
+Fast's test 4
+0's test no.4:
+hsError:  ['-3.0', '-2.0', '-2.0'] lossNum: 0
+toError:  ['3.0', '-1.0', '2.0'] lossNum: 0
+hsIndex [295.5, 499.0, 708.0]
+toIndex [216.0, 425.0, 630.0]
+Slow's test 5
+0's test no.5:
+hsError:  ['4.5', '-2.0', '-1.0'] lossNum: 0
+toError:  ['12.0', '1.0', '15.0'] lossNum: 0
+hsIndex [264.0, 423.0, 583.0]
+toIndex [191.0, 360.0, 516.0]
+Ting's test 6
+0's test no.6:
+hsError:  ['-2.0', '-1.0', '-3.0'] lossNum: 0
+toError:  ['9.0', '2.0', '11.0'] lossNum: 0
+hsIndex [275.0, 444.0, 612.0]
+toIndex [207.0, 376.0, 540.0]
+Thomas's test 7
+0's test no.7:
+hsError:  ['1.0', '2.0', '0.0'] lossNum: 0
+toError:  ['0.0', '-1.0', '-3.0'] lossNum: 0
+hsIndex [326.0, 541.0, 760.0]
+toIndex [258.0, 466.0, 680.0]
+Gene's test 8
+0's test no.8:
+hsError:  ['0.0', '-2.0', '0.0'] lossNum: 0
+toError:  ['5.0', '5.0', '5.0'] lossNum: 0
+hsIndex [309.0, 554.0, 780.0]
+toIndex [231.0, 465.0, 702.0]
+Gene's test 9
+0's test no.9:
+hsError:  ['-2.0', '-1.0', '-1.0'] lossNum: 0
+toError:  ['6.0', '3.0', '6.0'] lossNum: 0
+hsIndex [338.0, 556.0, 782.0]
+toIndex [261.0, 475.0, 701.0]
+Gene's test 10
+0's test no.10:
+hsError:  ['-2.0', '-3.0', '-2.0'] lossNum: 0
+toError:  ['7.0', '-1.0', '5.0'] lossNum: 0
+max index distance HS: 4
+max index distance TO: 15
+HS mean error PoHsin: -0.006222
+HS precision PoHsin: 0.015889
+HS rmse PoHsin: 0.016221
+HS mean error Fast: -0.010667
+HS precision Fast: 0.009688
+HS rmse Fast: 0.013856
+HS mean error Slow: 0.004000
+HS precision Slow: 0.028000
+HS rmse Slow: 0.023209
+TO mean error PoHsin: -0.016000
+TO precision PoHsin: 0.022539
+TO rmse PoHsin: 0.026600
+TO mean error Fast: -0.002667
+TO precision Fast: 0.043427
+TO rmse Fast: 0.039732
+TO mean error Slow: 0.074667
+TO precision Slow: 0.058969
+TO rmse Slow: 0.088844
+detect loss count PoHsin: 0
+detect loss count Fast: 0
+detect loss count Slow: 0
+
+k = 1
+trainData length: 49
+valiData length: 11
+testData length: 11
+Train time: 158.234917 sec
+hsIndex [286.0, 490.0, 705.0]
+toIndex [206.0, 407.0, 616.5]
+PoHsin's test 0
+1's test no.0:
+hsError:  ['4.0', '0.0', '2.0'] lossNum: 0
+toError:  ['0.0', '-4.0', '-4.5'] lossNum: 0
+hsIndex [293.0, 509.0, 729.0]
+toIndex [212.0, 422.0, 635.0]
+PoHsin's test 1
+1's test no.1:
+hsError:  ['2.0', '3.0', '0.0'] lossNum: 0
+toError:  ['2.0', '-4.0', '-3.0'] lossNum: 0
+hsIndex [302.0, 516.0, 735.0]
+toIndex [222.0, 430.0, 647.0]
+PoHsin's test 2
+1's test no.2:
+hsError:  ['4.0', '2.0', '2.0'] lossNum: 0
+toError:  ['1.0', '-1.0', '-3.0'] lossNum: 0
+hsIndex [283.0, 462.0, 651.0]
+toIndex [208.0, 393.0, 576.0]
+Fast's test 3
+1's test no.3:
+hsError:  ['-3.0', '-1.0', '2.0'] lossNum: 0
+toError:  ['9.0', '4.0', '3.0'] lossNum: 0
+hsIndex [254.0, 436.0, 620.0]
+toIndex [185.0, 363.0, 544.0]
+Fast's test 4
+1's test no.4:
+hsError:  ['4.0', '3.0', '7.0'] lossNum: 0
+toError:  ['13.0', '4.0', '5.0'] lossNum: 0
+hsIndex [411.0, 601.0, 787.0]
+toIndex [337.0, 523.0, 707.0]
+Slow's test 5
+1's test no.5:
+hsError:  ['1.0', '0.0', '5.0'] lossNum: 0
+toError:  ['0.0', '0.0', '-1.0'] lossNum: 0
+hsIndex [291.0, 473.0, 656.5]
+toIndex [218.0, 379.5, 576.0]
+Ting's test 6
+1's test no.6:
+hsError:  ['3.0', '2.0', '0.5'] lossNum: 0
+toError:  ['9.0', '-2.5', '3.0'] lossNum: 0
+hsIndex [235.0, 407.0, 578.0]
+toIndex [164.0, 332.0, 504.0]
+Thomas's test 7
+1's test no.7:
+hsError:  ['7.0', '8.0', '6.0'] lossNum: 0
+toError:  ['15.0', '5.0', '6.0'] lossNum: 0
+hsIndex [334.0, 555.0, 772.0]
+toIndex [257.0, 468.0, 687.0]
+Gene's test 8
+1's test no.8:
+hsError:  ['-1.0', '-1.0', '1.0'] lossNum: 0
+toError:  ['4.0', '3.0', '3.0'] lossNum: 0
+hsIndex [338.0, 570.0, 816.0]
+toIndex [264.0, 484.0, 724.0]
+Gene's test 9
+1's test no.9:
+hsError:  ['1.0', '-1.0', '-2.0'] lossNum: 0
+toError:  ['5.0', '5.0', '0.0'] lossNum: 0
+hsIndex [335.0, 556.0, 776.0]
+toIndex [258.0, 467.0, 683.0]
+Gene's test 10
+1's test no.10:
+hsError:  ['-1.0', '3.0', '1.0'] lossNum: 0
+toError:  ['6.0', '2.0', '2.0'] lossNum: 0
+max index distance HS: 8
+max index distance TO: 15
+HS mean error PoHsin: 0.016889
+HS precision PoHsin: 0.011624
+HS rmse PoHsin: 0.020133
+HS mean error Fast: 0.016000
+HS precision Fast: 0.028622
+HS rmse Fast: 0.030638
+HS mean error Slow: 0.016000
+HS precision Slow: 0.021166
+HS rmse Slow: 0.023551
+TO mean error PoHsin: -0.014667
+TO precision PoHsin: 0.019183
+TO rmse PoHsin: 0.023286
+TO mean error Fast: 0.050667
+TO precision Fast: 0.031053
+TO rmse Fast: 0.058057
+TO mean error Slow: -0.002667
+TO precision Slow: 0.004619
+TO rmse Slow: 0.004619
+detect loss count PoHsin: 0
+detect loss count Fast: 0
+detect loss count Slow: 0
+
+k = 2
+trainData length: 49
+valiData length: 11
+testData length: 11
+Train time: 163.190386 sec
+hsIndex [304.0, 516.0, 738.0]
+toIndex [223.0, 427.5, 657.0]
+PoHsin's test 0
+2's test no.0:
+hsError:  ['0.0', '-1.0', '-2.0'] lossNum: 0
+toError:  ['1.0', '-5.5', '-1.0'] lossNum: 0
+hsIndex [307.0, 527.0, 749.0]
+toIndex [229.0, 449.0, 671.0]
+PoHsin's test 1
+2's test no.1:
+hsError:  ['3.0', '-2.0', '1.0'] lossNum: 0
+toError:  ['3.0', '2.0', '4.0'] lossNum: 0
+hsIndex [286.0, 518.0, 756.0]
+toIndex [199.0, 440.0, 673.0]
+PoHsin's test 2
+2's test no.2:
+hsError:  ['4.0', '2.0', '3.0'] lossNum: 0
+toError:  ['3.0', '5.0', '5.0'] lossNum: 0
+hsIndex [264.0, 448.0, 628.0]
+toIndex [194.0, 375.0, 553.0]
+Fast's test 3
+2's test no.3:
+hsError:  ['1.0', '2.0', '2.0'] lossNum: 0
+toError:  ['6.0', '3.0', '1.0'] lossNum: 0
+hsIndex [285.0, 464.0, 644.0]
+toIndex [216.0, 394.0, 572.0]
+Fast's test 4
+2's test no.4:
+hsError:  ['1.0', '2.0', '3.0'] lossNum: 0
+toError:  ['2.0', '2.0', '2.0'] lossNum: 0
+hsIndex [263.0, 471.0, 668.0]
+toIndex [201.0, 405.0, 601.0]
+Slow's test 5
+2's test no.5:
+hsError:  ['6.0', '-15.0', '-10.0'] lossNum: 0
+toError:  ['17.0', '22.0', '23.0'] lossNum: 0
+hsIndex [283.0, 456.0, 633.0]
+toIndex [212.0, 384.0, 557.0]
+Ting's test 6
+2's test no.6:
+hsError:  ['2.0', '-1.0', '0.0'] lossNum: 0
+toError:  ['3.0', '9.0', '9.0'] lossNum: 0
+hsIndex [266.0, 478.0, 697.0]
+toIndex [191.0, 398.0, 609.0]
+Thomas's test 7
+2's test no.7:
+hsError:  ['-3.0', '-3.0', '1.0'] lossNum: 0
+toError:  ['14.0', '14.0', '4.0'] lossNum: 0
+hsIndex [322.0, 538.0, 750.0]
+toIndex [246.0, 455.0, 668.0]
+Gene's test 8
+2's test no.8:
+hsError:  ['1.0', '0.0', '-4.0'] lossNum: 0
+toError:  ['7.0', '3.0', '1.0'] lossNum: 0
+hsIndex [330.0, 554.0, 770.0]
+toIndex [240.5, 471.0, 689.0]
+Gene's test 9
+2's test no.9:
+hsError:  ['1.0', '1.0', '-3.0'] lossNum: 0
+toError:  ['-7.5', '4.0', '6.0'] lossNum: 0
+hsIndex [326.0, 535.0, 749.0]
+toIndex [231.0, 451.0, 667.0]
+Gene's test 10
+2's test no.10:
+hsError:  ['0.0', '2.0', '-2.0'] lossNum: 0
+toError:  ['-14.0', '3.0', '4.0'] lossNum: 0
+max index distance HS: -15
+max index distance TO: 23
+HS mean error PoHsin: 0.007111
+HS precision PoHsin: 0.018086
+HS rmse PoHsin: 0.018475
+HS mean error Fast: 0.014667
+HS precision Fast: 0.006022
+HS rmse Fast: 0.015663
+HS mean error Slow: -0.050667
+HS precision Slow: 0.087757
+HS rmse Slow: 0.087757
+TO mean error PoHsin: 0.014667
+TO precision PoHsin: 0.026833
+TO rmse PoHsin: 0.029242
+TO mean error Fast: 0.021333
+TO precision Fast: 0.014010
+TO rmse Fast: 0.024873
+TO mean error Slow: 0.165333
+TO precision Slow: 0.025716
+TO rmse Slow: 0.166661
+detect loss count PoHsin: 0
+detect loss count Fast: 0
+detect loss count Slow: 0
+
+k = 3
+trainData length: 49
+valiData length: 11
+testData length: 11
+Train time: 169.390660 sec
+hsIndex [271.0, 485.0, 705.0]
+toIndex [193.0, 410.0, 620.0]
+PoHsin's test 0
+3's test no.0:
+hsError:  ['1.0', '1.0', '-9.0'] lossNum: 0
+toError:  ['2.0', '0.0', '-2.0'] lossNum: 0
+hsIndex [297.0, 529.0, 758.0]
+toIndex [214.0, 440.5, 671.5]
+PoHsin's test 1
+3's test no.1:
+hsError:  ['-2.0', '-1.0', '0.0'] lossNum: 0
+toError:  ['0.0', '-4.5', '-4.5'] lossNum: 0
+hsIndex [303.0, 539.0, 773.0]
+toIndex [220.0, 454.0, 682.3333333333334]
+PoHsin's test 2
+3's test no.2:
+hsError:  ['-1.0', '-3.0', '0.0'] lossNum: 0
+toError:  ['3.0', '4.0', '-8.7'] lossNum: 0
+hsIndex [230.0, 409.0, 588.0]
+toIndex [160.0, 337.0, 515.0]
+Fast's test 3
+3's test no.3:
+hsError:  ['2.0', '2.0', '2.0'] lossNum: 0
+toError:  ['5.0', '3.0', '3.0'] lossNum: 0
+hsIndex [255.0, 426.0, 608.0]
+toIndex [184.0, 355.0, 533.0]
+Fast's test 4
+3's test no.4:
+hsError:  ['2.0', '-1.0', '4.0'] lossNum: 0
+toError:  ['0.0', '0.0', '1.0'] lossNum: 0
+hsIndex [331.0, 524.0, 724.0]
+toIndex [260.0, 455.0, 647.0]
+Slow's test 5
+3's test no.5:
+hsError:  ['1.0', '-1.0', '3.0'] lossNum: 0
+toError:  ['-1.0', '-1.0', '-3.0'] lossNum: 0
+hsIndex [301.0, 471.0, 647.0]
+toIndex [231.0, 401.0, 578.0]
+Ting's test 6
+3's test no.6:
+hsError:  ['-1.0', '0.0', '1.0'] lossNum: 0
+toError:  ['0.0', '10.0', '2.0'] lossNum: 0
+hsIndex [259.0, 454.0, 648.0]
+toIndex [186.0, 371.0, 565.0]
+Thomas's test 7
+3's test no.7:
+hsError:  ['-5.0', '-5.0', '0.0'] lossNum: 0
+toError:  ['-12.0', '-6.0', '7.0'] lossNum: 0
+hsIndex [337.0, 553.0, 761.0]
+toIndex [258.0, 476.0, 686.0]
+Gene's test 8
+3's test no.8:
+hsError:  ['-3.0', '-2.0', '0.0'] lossNum: 0
+toError:  ['5.0', '2.0', '5.0'] lossNum: 0
+hsIndex [304.0, 506.0, 711.0]
+toIndex [228.0, 433.0, 631.0]
+Gene's test 9
+3's test no.9:
+hsError:  ['5.0', '5.0', '3.0'] lossNum: 0
+toError:  ['6.0', '7.0', '7.0'] lossNum: 0
+hsIndex [299.0, 498.0, 711.0]
+toIndex [225.0, 420.0, 623.0]
+Gene's test 10
+3's test no.10:
+hsError:  ['-1.0', '0.0', '2.0'] lossNum: 0
+toError:  ['5.0', '1.0', '1.0'] lossNum: 0
+max index distance HS: -9
+max index distance TO: -12
+HS mean error PoHsin: -0.012444
+HS precision PoHsin: 0.024694
+HS rmse PoHsin: 0.026399
+HS mean error Fast: 0.014667
+HS precision Fast: 0.012817
+HS rmse Fast: 0.018762
+HS mean error Slow: 0.008000
+HS precision Slow: 0.016000
+HS rmse Slow: 0.015319
+TO mean error PoHsin: -0.009481
+TO precision PoHsin: 0.032981
+TO rmse PoHsin: 0.032508
+TO mean error Fast: 0.016000
+TO precision Fast: 0.016000
+TO rmse Fast: 0.021664
+TO mean error Slow: -0.013333
+TO precision Slow: 0.009238
+TO rmse Slow: 0.015319
+detect loss count PoHsin: 0
+detect loss count Fast: 0
+detect loss count Slow: 0
+
+k = 4
+trainData length: 49
+valiData length: 11
+testData length: 11
+Train time: 172.789952 sec
+hsIndex [268.0, 503.0, 734.0]
+toIndex [185.0, 413.0, 643.0]
+PoHsin's test 0
+4's test no.0:
+hsError:  ['1.0', '1.0', '1.0'] lossNum: 0
+toError:  ['1.0', '-6.0', '-7.0'] lossNum: 0
+hsIndex [287.0, 516.0, 749.0]
+toIndex [202.0, 432.0, 667.0]
+PoHsin's test 1
+4's test no.1:
+hsError:  ['4.0', '0.0', '3.0'] lossNum: 0
+toError:  ['-1.0', '1.0', '0.0'] lossNum: 0
+hsIndex [280.0, 494.0, 713.0]
+toIndex [203.0, 413.0, 627.5]
+PoHsin's test 2
+4's test no.2:
+hsError:  ['4.0', '1.0', '0.0'] lossNum: 0
+toError:  ['2.0', '-1.0', '-3.5'] lossNum: 0
+hsIndex [245.0, 421.0, 607.0]
+toIndex [173.0, 352.0, 529.0]
+Fast's test 3
+4's test no.3:
+hsError:  ['0.0', '0.0', '1.0'] lossNum: 0
+toError:  ['12.0', '2.0', '5.0'] lossNum: 0
+hsIndex [270.0, 448.0, 630.0]
+toIndex [181.0, 373.0, 554.0]
+Fast's test 4
+4's test no.4:
+hsError:  ['5.0', '7.0', '9.0'] lossNum: 0
+toError:  ['-14.0', '4.0', '4.0'] lossNum: 0
+hsIndex [324.0, 511.0, 696.0]
+toIndex [249.0, 439.0, 623.0]
+Slow's test 5
+4's test no.5:
+hsError:  ['4.0', '5.0', '2.0'] lossNum: 0
+toError:  ['0.0', '-1.0', '-1.0'] lossNum: 0
+hsIndex [305.0, 499.0, 696.0]
+toIndex [225.0, 419.0, 618.0]
+Ting's test 6
+4's test no.6:
+hsError:  ['1.0', '-4.0', '-1.0'] lossNum: 0
+toError:  ['14.0', '-1.0', '1.0'] lossNum: 0
+hsIndex [259.0, 455.0, 663.0]
+toIndex [189.0, 377.0, 579.0]
+Thomas's test 7
+4's test no.7:
+hsError:  ['3.0', '1.0', '-1.0'] lossNum: 0
+toError:  ['12.0', '-3.0', '2.0'] lossNum: 0
+hsIndex [339.0, 555.0, 764.0]
+toIndex [254.0, 471.0, 677.0]
+Gene's test 8
+4's test no.8:
+hsError:  ['-1.0', '0.0', '1.0'] lossNum: 0
+toError:  ['-5.0', '0.0', '-4.0'] lossNum: 0
+hsIndex [336.0, 576.0, 817.0]
+toIndex [253.0, 475.5, 732.0]
+Gene's test 9
+4's test no.9:
+hsError:  ['-4.0', '-4.0', '-3.0'] lossNum: 0
+toError:  ['4.0', '-6.5', '2.0'] lossNum: 0
+hsIndex [322.0, 536.0, 768.0]
+toIndex [247.0, 452.0, 676.0]
+Gene's test 10
+4's test no.10:
+hsError:  ['1.0', '-2.0', '-4.0'] lossNum: 0
+toError:  ['6.0', '4.0', '2.0'] lossNum: 0
+max index distance HS: 9
+max index distance TO: -14
+HS mean error PoHsin: 0.013333
+HS precision PoHsin: 0.012649
+HS rmse PoHsin: 0.017889
+HS mean error Fast: 0.029333
+HS precision Fast: 0.031053
+HS rmse Fast: 0.040792
+HS mean error Slow: 0.029333
+HS precision Slow: 0.012220
+HS rmse Slow: 0.030984
+TO mean error PoHsin: -0.012889
+TO precision PoHsin: 0.025595
+TO rmse PoHsin: 0.027358
+TO mean error Fast: 0.017333
+TO precision Fast: 0.069082
+TO rmse Fast: 0.065401
+TO mean error Slow: -0.005333
+TO precision Slow: 0.004619
+TO rmse Slow: 0.006532
+detect loss count PoHsin: 0
+detect loss count Fast: 0
+detect loss count Slow: 0
+
+k = 5
+trainData length: 44
+valiData length: 11
+testData length: 11
+Train time: 162.501176 sec
+hsIndex [300.0, 523.0, 747.0]
+toIndex [215.0, 442.5, 667.0]
+PoHsin's test 0
+5's test no.0:
+hsError:  ['-2.0', '-2.0', '-1.0'] lossNum: 0
+toError:  ['1.0', '-4.5', '0.0'] lossNum: 0
+hsIndex [302.0, 543.0, 783.0]
+toIndex [222.0, 451.5, 703.0]
+PoHsin's test 1
+5's test no.1:
+hsError:  ['3.0', '-1.0', '2.0'] lossNum: 0
+toError:  ['0.0', '-7.5', '1.0'] lossNum: 0
+hsIndex [292.0, 526.0, 760.0]
+toIndex [209.0, 444.0, 670.5]
+PoHsin's test 2
+5's test no.2:
+hsError:  ['4.0', '2.0', '2.0'] lossNum: 0
+toError:  ['-1.0', '-2.0', '-6.5'] lossNum: 0
+hsIndex [266.5, 451.0, 642.0]
+toIndex [187.0, 378.0, 563.0]
+Fast's test 3
+5's test no.3:
+hsError:  ['2.5', '1.0', '5.0'] lossNum: 0
+toError:  ['1.0', '3.0', '2.0'] lossNum: 0
+hsIndex [278.0, 465.0, 648.0]
+toIndex [182.0, 386.0, 574.0]
+Fast's test 4
+5's test no.4:
+hsError:  ['5.0', '5.0', '5.0'] lossNum: 0
+toError:  ['-2.0', '8.0', '3.0'] lossNum: 0
+hsIndex [300.0, 501.0, 703.0]
+toIndex [231.0, 428.0, 634.0]
+Slow's test 5
+5's test no.5:
+hsError:  ['3.0', '7.0', '2.0'] lossNum: 0
+toError:  ['2.0', '1.0', '1.0'] lossNum: 0
+hsIndex [318.0, 488.0, 664.0]
+toIndex [246.0, 418.0, 589.0]
+Ting's test 6
+5's test no.6:
+hsError:  ['1.0', '3.0', '4.0'] lossNum: 0
+toError:  ['15.0', '0.0', '0.0'] lossNum: 0
+hsIndex [276.0, 471.0, 671.0]
+toIndex [200.0, 385.0, 588.0]
+Thomas's test 7
+5's test no.7:
+hsError:  ['5.0', '3.0', '3.0'] lossNum: 0
+toError:  ['-10.0', '15.0', '-2.0'] lossNum: 0
+hsIndex [329.5, 535.0, 748.0]
+toIndex [248.0, 456.0, 661.0]
+Gene's test 8
+5's test no.8:
+hsError:  ['2.5', '3.0', '3.0'] lossNum: 0
+toError:  ['6.0', '3.0', '1.0'] lossNum: 0
+hsIndex [317.0, 514.5, 722.0]
+toIndex [238.0, 437.0, 637.0]
+Gene's test 9
+5's test no.9:
+hsError:  ['4.0', '1.5', '3.0'] lossNum: 0
+toError:  ['6.0', '4.0', '3.0'] lossNum: 0
+hsIndex [357.0, 598.0, 837.0]
+toIndex [267.0, 511.0, 747.0]
+Gene's test 10
+5's test no.10:
+hsError:  ['1.0', '2.0', '-2.0'] lossNum: 0
+toError:  ['7.0', '5.0', '0.0'] lossNum: 0
+max index distance HS: 7
+max index distance TO: 15
+HS mean error PoHsin: 0.006222
+HS precision PoHsin: 0.018233
+HS rmse PoHsin: 0.018282
+HS mean error Fast: 0.031333
+HS precision Fast: 0.013952
+HS rmse Fast: 0.033823
+HS mean error Slow: 0.032000
+HS precision Slow: 0.021166
+HS rmse Slow: 0.036368
+TO mean error PoHsin: -0.017333
+TO precision PoHsin: 0.025846
+TO rmse PoHsin: 0.029904
+TO mean error Fast: 0.020000
+TO precision Fast: 0.026169
+TO rmse Fast: 0.031156
+TO mean error Slow: 0.010667
+TO precision Slow: 0.004619
+TO rmse Slow: 0.011314
+detect loss count PoHsin: 0
+detect loss count Fast: 0
+detect loss count Slow: 0
+
+CV HS mean error PoHsin: 0.004148
+CV HS precision PoHsin: 0.016862
+CV HS rmse PoHsin: 0.019566
+
+CV TO mean error PoHsin: -0.009284
+CV TO precision PoHsin: 0.025496
+CV TO rmse PoHsin: 0.028150
+CV detect loss count PoHsin: 0
+
+CV HS mean error Fast: 0.015889
+CV HS precision Fast: 0.017026
+CV HS rmse Fast: 0.025589
+
+CV TO mean error Fast: 0.020444
+CV TO precision Fast: 0.033290
+CV TO rmse Fast: 0.040147
+CV detect loss count Fast: 0
+
+CV HS mean error Slow: 0.006444
+CV HS precision Slow: 0.031052
+CV HS rmse Slow: 0.036198
+
+CV TO mean error Slow: 0.038222
+CV TO precision Slow: 0.017963
+CV TO rmse Slow: 0.048882
+CV detect loss count Slow: 0
+
+CV HS mean error Ting: 0.002000
+CV HS precision Ting: 0.011773
+CV HS rmse Ting: 0.015684
+
+CV TO mean error Ting: 0.041556
+CV TO precision Ting: 0.048051
+CV TO rmse Ting: 0.058897
+CV detect loss count Ting: 0
+
+CV HS mean error Thomas: 0.010222
+CV HS precision Thomas: 0.013801
+CV HS rmse Thomas: 0.027518
+
+CV TO mean error Thomas: 0.025333
+CV TO precision Thomas: 0.057235
+CV TO rmse Thomas: 0.066260
+CV detect loss count Thomas: 0
+
+CV HS mean error Gene: -0.000889
+CV HS precision Gene: 0.015249
+CV HS rmse Gene: 0.017876
+
+CV TO mean error Gene: 0.022815
+CV TO precision Gene: 0.027153
+CV TO rmse Gene: 0.038646
+CV detect loss count Gene: 0

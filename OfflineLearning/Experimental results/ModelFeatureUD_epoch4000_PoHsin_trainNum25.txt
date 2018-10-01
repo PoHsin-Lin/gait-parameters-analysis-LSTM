@@ -1,0 +1,59 @@
+Read data and preprocess ...
+
+trainData length: 25
+valiData length: 14
+testData length: 15
+Train time: 245.802070 sec
+min val_loss: 3.384369, epoch: 3928
+min val_precision: 1.366356, epoch: 3928
+k = 0
+estimated: 121.629730, ground truth: 122.810326
+estimated: 121.881523, ground truth: 118.275360
+estimated: 109.797737, ground truth: 113.061653
+estimated: 102.204605, ground truth: 103.035690
+estimated: 111.401413, ground truth: 113.997643
+estimated: 121.971504, ground truth: 124.757912
+estimated: 116.090569, ground truth: 118.978302
+estimated: 103.167023, ground truth: 106.480530
+estimated: 105.334877, ground truth: 108.037453
+estimated: 89.184120, ground truth: 89.883118
+estimated: 97.879402, ground truth: 102.346550
+estimated: 111.254555, ground truth: 114.574699
+estimated: 110.457550, ground truth: 114.560966
+estimated: 122.492523, ground truth: 121.941841
+estimated: 90.222305, ground truth: 95.844788
+
+meanError: -2.241160
+precision: 2.263812
+rmse: 3.131451
+
+trainData length: 25
+valiData length: 14
+testData length: 15
+Train time: 230.821292 sec
+min val_loss: 14.715810, epoch: 3148
+min val_precision: 2.837482, epoch: 1561
+k = 1
+estimated: 122.714661, ground truth: 124.022827
+estimated: 98.916977, ground truth: 100.180473
+estimated: 119.760345, ground truth: 119.711891
+estimated: 103.988846, ground truth: 99.418861
+estimated: 104.289970, ground truth: 100.878716
+estimated: 107.908905, ground truth: 107.599937
+estimated: 110.766624, ground truth: 110.536713
+estimated: 116.470100, ground truth: 115.904518
+estimated: 105.751762, ground truth: 115.890823
+estimated: 109.906372, ground truth: 111.118668
+estimated: 112.518661, ground truth: 105.001480
+estimated: 107.508591, ground truth: 103.638824
+estimated: 107.211189, ground truth: 110.277786
+estimated: 101.084435, ground truth: 90.687233
+estimated: 108.198082, ground truth: 104.917053
+
+meanError: 1.147314
+precision: 4.785238
+rmse: 4.763220
+
+avgMeanError: -0.546923
+avgPrecision: 3.524525
+avgRmse: 3.947335
