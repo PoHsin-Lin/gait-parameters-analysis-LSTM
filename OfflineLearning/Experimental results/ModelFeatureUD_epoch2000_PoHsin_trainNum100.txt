@@ -1,5 +1,0 @@
-Read data and preprocess ...
-
-trainData length: 100
-valiData length: 49
-testData length: 49
