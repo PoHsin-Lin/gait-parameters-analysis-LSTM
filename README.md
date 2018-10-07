@@ -1,4 +1,11 @@
 # gait-parameters-analysis-LSTM
+
+This repository contains the walking data collected from six volunteers, a step event detector, and stride length estimators.
+
+The walking data is collected from leg-and-shoe-mounted [EcoIMU](https://epl.tw/ecomini/). Five EcoIMU are attached to human body, as shown in
+
+![Collecting the walking data with EcoIMU through BLE](pics/system_overview.pdf)
+
 Step event detection and stride length estimation based on leg-and-shoe-mounted EcoIMU and LSTM.
 
 ## Getting Started
@@ -61,26 +68,8 @@ Add additional notes about how to deploy this on a live system
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
