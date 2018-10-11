@@ -1,12 +1,11 @@
 # gait-parameters-analysis-LSTM
 
-This repository contains the walking data collected from six volunteers, a step event detector, and stride length estimators.
+This repository contains a set of walking data, a step event detector, and two stride length estimators.
 
-The walking data is collected from leg-and-shoe-mounted [EcoIMU](https://epl.tw/ecomini/). Five EcoIMU are attached to human body, as shown in
+The walking data is collected from six volunteers equipped with leg-and-shoe-mounted [EcoIMU](https://epl.tw/ecomini/). We attach five EcoIMUs to human body and collect motion data, including triaxial accelerations and triaxial angular rates, through BLE.
 
-![Collecting the walking data with EcoIMU through BLE](pics/system_overview.pdf)
+![Collecting the walking data with EcoIMU through BLE](pics/system_overview.png)
 
-Step event detection and stride length estimation based on leg-and-shoe-mounted EcoIMU and LSTM.
 
 ## Getting Started
 
