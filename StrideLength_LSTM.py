@@ -8,12 +8,6 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from scipy import signal
 from scipy.signal import argrelextrema
-from pandas import read_csv
-from pandas import DataFrame
-from pandas import concat
-from sklearn.preprocessing import MinMaxScaler
-from sklearn.preprocessing import LabelEncoder
-from sklearn.metrics import mean_squared_error
 from keras.models import Sequential
 from keras.layers import Dense, LSTM, SimpleRNN, CuDNNLSTM, RNN, Dropout
 from keras.optimizers import Adam
