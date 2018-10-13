@@ -33,7 +33,7 @@ pip install --upgrade tensorflow-gpu==1.5.0
 
 ### Clone and Run
 
-Clone this repository and run the corresponding programs. The result will be printed in the terminal, and for the programs that use LSTM, graphs that show the **loss** and **accuracy** during traing, validation, and testing can be found in **resultSpace** folder.
+Clone this repository and run the corresponding programs. The result will be printed in the terminal.
 
 ```
 git clone https://github.com/PoHsin-Lin/gait-parameters-analysis-LSTM.git
@@ -41,6 +41,12 @@ python3 StepEvent_LSTM.py
 python3 StrideLength_MechanicalModel.py
 python3 StrideLength_LSTM.py
 ```
+
+#### Loss and Precision Graph
+
+For the programs that use LSTM, graphs that show the **loss** and **precision**/**accuracy** during traing, validation, and testing can be found in **resultSpace** folder.
+
+![Loss and precision graph of a LSTM model for stride length estimation](https://drive.google.com/uc?id=1YxGM0R7g2Tf6viCJCdC8CuQsKs1jehyI)
 
 ### More Information
 
