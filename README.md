@@ -15,14 +15,12 @@ We implement this detector in *StepEvent_LSTM.py*.
 #### Stride Length Estimator
 We propose two stride length estimators, which use *Mechanical Model* and *LSTM*, separately, to estimate stride lengths. 
 * **Mechanical Model**: use the z-axis of gyroscope data to obtain the angles at joints through integration, and then we combine these angles with leg length and shoe length to calculate stride lengths. We implement this estimator in *StrideLength_MechanicalModel.py*.
-* **LSTM**: use 6-axis IMU data collected from all of the five leg-and-shoe-mounted EcoIMU as the inputs to a neural network constructed with LSTM cells. We implement this estimator in *StrideLength_LSTM.py*.
-
-
+* **LSTM**: use 6-axis IMU data collected from all of the five leg-and-shoe-mounted EcoIMUs as the inputs to a neural network constructed with LSTM cells. We implement this estimator in *StrideLength_LSTM.py*.
 
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
 
@@ -43,3 +41,7 @@ python3 StepEvent_LSTM.py
 python3 StrideLength_MechanicalModel.py
 python3 StrideLength_LSTM.py
 ```
+
+### More Information
+
+For more details about the methods and the performance, please see the attached *thesis.pdf*.
