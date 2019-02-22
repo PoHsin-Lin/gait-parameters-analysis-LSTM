@@ -3,7 +3,7 @@
 This repository contains **369 strides of walking data**, **a step event detector**, and **two stride length estimators**.
 
 #### Walking Data
-The walking data is collected from six volunteers equipped with leg-and-shoe-mounted [EcoIMU](https://epl.tw/ecomini/). We attach five EcoIMUs to human body and collect motion data, including triaxial accelerations and triaxial angular rates, through BLE at a 200 samples per second data rate.
+The walking data is collected from six volunteers equipped with leg-and-shoe-mounted [EcoIMU](https://epl.tw/ecomini/). We attach five EcoIMUs to human body and collect motion data, including triaxial accelerations and triaxial angular rates, through BLE at a 125 samples per second data rate.
 
 ![Collecting the walking data with EcoIMU through BLE](https://drive.google.com/uc?id=1pmaJ2iuqjzIB8484h0qPcC60nP3A7AxC)
 
